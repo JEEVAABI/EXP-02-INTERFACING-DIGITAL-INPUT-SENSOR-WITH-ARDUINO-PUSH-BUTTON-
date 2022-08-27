@@ -93,6 +93,7 @@ void loop()
 ~~~
 Output of the simulation :
 ![output](out.png)
-
+### Result:
+Thus ,with programmed code the assembled board is working.
 
 
