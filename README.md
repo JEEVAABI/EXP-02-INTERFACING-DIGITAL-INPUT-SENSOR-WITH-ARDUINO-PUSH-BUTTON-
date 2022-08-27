@@ -67,15 +67,32 @@ FIGURE -03
 
 
 PROGRAM 
- 
- 
- 
- 
- 
+~~~
+// C++ code
+int ledpin=4;
+int pushbtn=2;
+int val=0;
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+  pinMode(pushbtn,INPUT);
+}
 
-
-
+void loop()
+{
+  val=digitalRead(pushbtn);
+  if(val==0)
+  {
+    digitalWrite(ledpin,HIGH);
+  }
+  else
+  {
+    digitalWrite(ledpin,LOW);
+  }
+}
+~~~
 Output of the simulation :
+![output](out.png)
 
 [My image](username.github.com/repository/img/image.jpg)
 
