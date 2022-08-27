@@ -94,5 +94,5 @@ void loop()
 Output of the simulation :
 ![output](out.png)
 
-[My image](username.github.com/repository/img/image.jpg)
+
 
