@@ -61,12 +61,14 @@ CIRCUIT DIAGRAM
 
 
 FIGURE -03
+### before simulation:
+![output](out.png)
 
 
 
 
 
-PROGRAM 
+### PROGRAM 
 ~~~
 // C++ code
 int ledpin=4;
@@ -91,9 +93,10 @@ void loop()
   }
 }
 ~~~
-Output of the simulation :
-![output](out.png)
+### Output of the simulation :
+
+![output](work.png)
 ### Result:
-Thus ,with programmed code the assembled board is working.
+Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
 
 
